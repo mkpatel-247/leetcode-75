@@ -1,1 +1,1 @@
-# striver-sde-sheet
+# Leetcode 75
