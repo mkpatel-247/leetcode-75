@@ -17,10 +17,10 @@ class Solution {
         
         if(count > 1) str.append(count);
         //Change the existing char array to a new string compression.
-        String compressedStr = str.toString();
+        String compressedString = str.toString();
         for(int i=0; i<compressedStr.length(); i++){
             chars[i] = compressedStr.charAt(i);
         }
-        return str.toString().length();
+        return compressedString.length();
     }
 }
